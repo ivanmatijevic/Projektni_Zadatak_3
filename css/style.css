@@ -1,0 +1,83 @@
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif; 
+            background-image: url(""); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: #faf3f3;
+            text-align: center;
+         }
+
+         p{
+            text-align: center;
+            text-wrap: wrap;
+         }
+         video{
+            margin: 0 450px;
+         }
+        @font-face {
+            font-family:IVANMATIJEVIC;
+            src: url(IVANMATIJEVIC.ttf);
+         }
+
+        nav {
+            background-color: rgba(172, 46, 46, 0.849);
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 100px 20px;
+        }
+
+        header{
+            font-family: IVANMATIJEVIC;
+            color: black;
+            font-size: 20px;
+            margin: 10px;
+        }
+        .portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-item {
+    width: 600px;
+    margin: 20px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-item img{
+    transition: ease-in 0.1s;
+
+}
+
+.portfolio-item img:hover{
+    opacity: 70%;
+} 
+
+video{
+    width: 900px;
+    margin-bottom: 50px;
+}
+
+.container{
+    padding: 30px 0 50px;
+}
