@@ -21,6 +21,10 @@
             src: url(PIvanMatijevic);
          }
 
+title{
+        font-family:"PIvanMatijevic"
+}
+
         nav {
             background-color: rgba(172, 46, 46, 0.849);
             padding: 10px 0;
