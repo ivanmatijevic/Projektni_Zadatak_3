@@ -16,14 +16,12 @@
          video{
             margin: 0 450px;
          }
-         font-face {
-            font-family:PIvanMatijevic;
-            src: url(PIvanMatijevic);
+
+         @font-face {
+            font-family:IVANMATIJEVIC;
+            src: url(IVANMATIJEVIC.ttf);
          }
 
-title{
-        font-family:"PIvanMatijevic"
-}
 
         nav {
             background-color: rgba(172, 46, 46, 0.849);
